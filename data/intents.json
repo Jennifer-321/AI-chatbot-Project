@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "what's up", "hi there", "how far","xup","good morning","good evening", "good afternoon"],
+      "responses": ["Hello! How can I help you today?", "Hi there! How can I assist you?", "Hi! How may I be of service to you today?"]
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "what's your name", "who are you?", "can you tell me your name", "introduce yourself"],
+      "responses": ["You can call me MyBHU Assistant", "I'm MyBHU Assistant", "I am MyBHU Assistant"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "talk to you later"],
+      "responses": ["Goodbye! Have a great day.", "See you later! Take care.", "Talk to you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "appreciate it", "thank you very much"],
+      "responses": ["You're welcome!", "No problem.", "Anytime!"]
+    },
+    {
+      "tag": "website",
+      "patterns": ["what is the school website?","What's the website URL?", "What's the website address?", "Can you give me the website link?", "Where can I find the website?"],
+      "responses": ["The website address is https://binghamuni.edu.ng/v2/", "You can find the website at https://binghamuni.edu.ng/v2/"]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How do I apply for admission?", "What are the admission requirements?", "Can you help me with my admission application?","Is admission available?","are admissions available?","How do i gain admission?"],
+      "responses": ["To apply for admission, you need to visit the admissions page on our website and follow the instructions there.", "The admission requirements vary depending on the program you're applying to. You can find more information on the admissions page of our website.","To enroll in our school, you will need to fill out an application form and submit it to the admissions office. You may also need to provide transcripts and other documents as part of the application process.","The admission requirements for our school include a completed application form, WAEC and JAMB, and possibly other documents such as immunization records or proof of residency. Please contact the admissions office for more information."]
+    },
+    {
+      "tag": "program",
+      "patterns": ["What programs do you offer?", "Can you tell me more about your programs?", "What are the requirements for your programs?","What courses do you have?"],
+      "responses": ["We offer a wide range of programs, including computer science, business,law and engineering. You can find more information about each program on our website.", "Our programs have different requirements depending on the level and field of study. You can find more information on our website."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact the school?","How can I contact you?", "What's your phone number?", "What's your email address?","what is the school email address"],
+      "responses": ["You can contact us through our website, or by phone at 07068615119,07065092268,07064483649. Our email address is directorateinfo@binghamuni.edu.ng"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you","when were you made","what is your age"],
+      "responses": ["I was made in 2023, if that's what you are asking!"]
+    },
+    {
+      "tag": "suggest",
+      "patterns": ["you are useless","useless","suggest","suggestions","you are bad"],
+      "responses": ["Please mail your suggestions to directorateinfo@binghamuni.edu.ng. Thank you for helping me improve!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what time does the school open","What are your hours of operation", "when are you guys open", "When is the school open", "What are the office hours for the school", "when does the school close"],
+      "responses": ["The school is open from 8:00 am to 4:00 pm Monday through Friday", "Classes start at 8:00 am and end at 4:00 pm on weekdays", "The school offices are open from 8:00 am to 4:00 pm Monday through Friday."]
+    },
+    {
+      "tag": "address",
+      "patterns": ["what is the school address?","What is your address?","Can you give me your address?","Where are you located?","What's your physical address?"],
+      "responses": ["Our address is Bingham University,Km 26 Abuja-Keffi Express Way Kodope,Nasarawa State", "We're located at Bingham University,Km 26 Abuja-Keffi Express Way Kodope,Nasarawa State","Our physical address is Bingham University,Km 26 Abuja-Keffi Express Way Kodope,Nasarawa State"]
+    },
+    {
+      "tag": "JAMB",
+      "patterns": ["Am I eligible for admission based on my JAMB score?", "What is the JAMB cut-off mark for different programs?", "Can I get admission with my JAMB score?", "What are the JAMB requirements for admission?"],
+      "responses": ["To be eligible for admission, the JAMB cut-off marks for our programs are as follows: LAW=230, Pharmacy=200, Nursing=200, Computer Science=180, Medical Laboratory Science=180, Optometry=170, Public Health=170, Architecture=160, Economics=160, Accounting=160, Mass Communication=170, Other Programs=150. Please note that meeting the cut-off mark does not guarantee admission, as other factors may also be considered."]
+    },
+    {
+      "tag": "WAEC",
+      "patterns": ["How many A's do i need in WAEC to gain admission?, Can I gain admission if I still failed maths and English?"],
+      "responses": ["For eligibility, it is required to have a distinction in Mathematics and English in your WAEC results. These subjects are crucial for admission consideration. However, other factors such as JAMB score, program requirements, and availability of slots may also be taken into account during the admission process."]
+    },
+    {
+      "tag": "Fees",
+      "patterns": ["What are the tuition fees for Bingham University?", "How much does it cost to study at Bingham University?", "Are there any scholarships or financial aid available to help with the fees?", "Can you provide a breakdown of the fees for the school fees?", "Are there any payment plans or installment options for the fees?","How do I pay school fees?","Where do I pay school fees?","When do I pay school fees?"],
+      "responses": ["Tuition fees for specific programs at Bingham University can vary. It is recommended to visit our website or contact the admissions office for detailed information regarding the fees for specific programs. Scholarship opportunities and financial aid options may be available to assist students with the fees. The website or admissions office can provide more information about scholarship programs and financial assistance. Additionally, for a breakdown of the fees or information about payment plans and installment options, it is best to consult the website or reach out to the admissions office."]
+    },
+    {
+      "tag": "unknown",
+      "patterns": ["Sorry, I didn't understand.", "Can you repeat that?", "I'm not sure what you mean."],
+      "responses": ["I'm sorry, I don't know the answer to that. Can I help you with something else?", "I'm not sure what you're asking. Can you please provide more information?", "I'm sorry, I couldn't understand you. Can you please rephrase your question?"]
+    }
+  ]
+}
